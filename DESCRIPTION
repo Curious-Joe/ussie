@@ -10,7 +10,8 @@ Authors@R: person("Arafath", "Hossain", email = "a.h.fahad90@gmail.com",
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
-URL: https://github.com/Curious-Joe/ussie
+URL: https://github.com/Curious-Joe/ussie,
+    https://curious-joe.github.io/ussie/
 BugReports: https://github.com/Curious-Joe/ussie/issues
 Imports: 
     dplyr,
