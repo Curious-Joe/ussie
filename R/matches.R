@@ -1,3 +1,15 @@
+#' Creates a standard DataFrame for league data
+#'
+#' @param data_engsoc `dataframe` obtained from {engsoccerdata}.
+#' @param country `character` scalar, specifies the league.
+#'
+#' @return a tibble with columns `country`, `date`, `season`, `tier`, `home`,
+#'    `visitor`, `goals_home`, `goals_visitor`.
+#' @export
+#'
+#' @examples
+#' uss_make_matches(engsoccerdata::spain, "Spain")
+#'
 uss_make_matches <- function(data_engsoc, country) {
   result <-
     data_engsoc |>
