@@ -4,10 +4,12 @@
 # ussie
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/Curious-Joe/ussie/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Curious-Joe/ussie/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of ussie is to prepare data provided by the package
-{`engsoccerdata`} in a consistent data frame format.
+`{engsoccerdata}` in a consistent data frame format.
 
 ## Installation
 
@@ -47,6 +49,10 @@ The above example should,
 -   Process it into a consistently formatted `tibble`
 -   Finally using `head()` function show top 10 rows of the tibble.
 
+------------------------------------------------------------------------
+
 ## Document Details
 
-Prepared By: Arafath Hossain Date: July 25th, 2022
+Prepared By: Arafath Hossain
+
+Date: July 25th, 2022
