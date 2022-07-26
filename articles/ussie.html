@@ -103,6 +103,24 @@
 <span><span class="co">#&gt; $ visitor       <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "US Livorno", "Unione Triestina", "Bologna FC", "US Ales…</span></span>
 <span><span class="co">#&gt; $ goals_home    <span style="color: #949494; font-style: italic;">&lt;int&gt;</span> 6, 3, 2, 0, 4, 0, 3, 1, 1, 1, 2, 4, 2, 2, 3, 2, 2, 2, 0,…</span></span>
 <span><span class="co">#&gt; $ goals_visitor <span style="color: #949494; font-style: italic;">&lt;int&gt;</span> 1, 1, 1, 1, 1, 2, 0, 2, 1, 1, 1, 0, 2, 1, 1, 0, 1, 1, 1,…</span></span></code></pre></div>
+<div class="section level2">
+<h2 id="get-country-data">Get country data<a class="anchor" aria-label="anchor" href="#get-country-data"></a>
+</h2>
+<p>the function <code><a href="../reference/uss_get_matches.html">uss_get_matches()</a></code> can get the data for a country.</p>
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu"><a href="../reference/uss_get_matches.html">uss_get_matches</a></span><span class="op">(</span><span class="st">'england'</span><span class="op">)</span> <span class="op">|&gt;</span></span>
+<span>  <span class="fu"><a href="https://pillar.r-lib.org/reference/glimpse.html" class="external-link">glimpse</a></span><span class="op">(</span><span class="op">)</span></span>
+<span><span class="co">#&gt; Rows: 192,004</span></span>
+<span><span class="co">#&gt; Columns: 8</span></span>
+<span><span class="co">#&gt; $ country       <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "England", "England", "England", "England", "England", "…</span></span>
+<span><span class="co">#&gt; $ tier          <span style="color: #949494; font-style: italic;">&lt;fct&gt;</span> 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,…</span></span>
+<span><span class="co">#&gt; $ season        <span style="color: #949494; font-style: italic;">&lt;int&gt;</span> 1888, 1888, 1888, 1888, 1888, 1888, 1888, 1888, 1888, 18…</span></span>
+<span><span class="co">#&gt; $ date          <span style="color: #949494; font-style: italic;">&lt;date&gt;</span> 1888-12-15, 1889-01-19, 1889-03-23, 1888-12-01, 1888-10…</span></span>
+<span><span class="co">#&gt; $ home          <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "Accrington F.C.", "Accrington F.C.", "Accrington F.C.",…</span></span>
+<span><span class="co">#&gt; $ visitor       <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "Aston Villa", "Blackburn Rovers", "Bolton Wanderers", "…</span></span>
+<span><span class="co">#&gt; $ goals_home    <span style="color: #949494; font-style: italic;">&lt;int&gt;</span> 1, 0, 2, 5, 6, 3, 1, 0, 2, 2, 4, 4, 6, 6, 4, 4, 2, 9, 0,…</span></span>
+<span><span class="co">#&gt; $ goals_visitor <span style="color: #949494; font-style: italic;">&lt;int&gt;</span> 1, 2, 3, 1, 2, 1, 2, 0, 0, 1, 4, 3, 1, 2, 2, 2, 1, 1, 2,…</span></span></code></pre></div>
+</div>
   </main>
 </div>
 

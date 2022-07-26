@@ -3,7 +3,7 @@ pkgdown: 2.0.6
 pkgdown_sha: ~
 articles:
   ussie: ussie.html
-last_built: 2022-07-26T13:33Z
+last_built: 2022-07-26T14:34Z
 urls:
   reference: https://curious-joe.github.io/ussie/reference
   article: https://curious-joe.github.io/ussie/articles
