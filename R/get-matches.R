@@ -76,12 +76,14 @@ get_soccer_data <- function(data_name) {
 #' the source data.
 #'
 #' @inherit uss_make_matches params return
+#' @inheritParams dplyr::filter
 #'
 #' @examples
 #' uss_get_matches("england")
+#' uss_get_matches("italy", season == 2000) |> dplyr::glimpse()
 #' @export
 #'
-uss_get_matches <- function(country = uss_countries()) {
+uss_get_matches <- function(country = uss_countries(), ...) {
 
   # 2.2.1 side effects (errors)
   #
@@ -106,7 +108,8 @@ uss_get_matches <- function(country = uss_countries()) {
   # (but we aren't doing that here)
   # https://design.tidyverse.org/dots-prefix.html
 
-  uss_make_matches(data, country)
+  uss_make_matches(data, country) |>
+    dplyr::filter(...)
 }
 
 

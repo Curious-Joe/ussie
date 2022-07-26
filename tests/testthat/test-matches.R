@@ -17,4 +17,5 @@ test_that("uss_make_matches works", {
   # E.g. between the following two prefer use expect_s3_class() to expect_true()
   expect_s3_class(italy$tier, "factor")
   expect_true(is.factor(italy$tier))
+  expect_snapshot(dplyr::glimpse(italy))
 })
